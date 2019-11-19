@@ -1,0 +1,264 @@
+html {
+    background: no-repeat center center fixed;
+    background-color: #171717;
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -ms-background-size:cover;
+    -o-background-size:cover;
+    
+    font-size: 14px !important;
+    color: #4D4D4D !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a {
+    text-decoration:none;
+}
+
+
+
+body {
+    background-color:transparent;
+    margin: 0 auto;
+    border:0;
+    
+    
+}
+
+
+.mainheader {
+    max-height:100%;
+    max-width:100%;
+    padding-bottom: 13%;
+
+}
+
+.toplogo {
+    padding-bottom:20px;
+    padding-top:60px;
+    text-align:center;
+    max-height: 100%;
+    max-width: 100%;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    -webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+}
+
+.contactinfo {
+    text-align:center;
+    display:block;
+    padding-bottom:29px;
+    margin:0 auto;
+    opacity: 0.9;
+    animation: fadeinContact 3s;
+    -moz-animation: fadeinContact 3s;
+    -webkit-animation: fadeinContact 3s;
+    -o-animation: fadeinContact 3s;
+}
+
+.Sign {
+    padding-bottom:20px;
+    max-height: 100%;
+    max-width: 100%;
+    margin:0 auto;
+    display:block;
+    opacity:0.9;
+    animation: fadeinContact 2s;
+    -moz-animation: fadeinContact 2s;
+    -webkit-animation: fadeinContact 2s;
+    -o-animation: fadeinContact 2s;
+
+}
+
+
+.content, .footercontent {
+    width: 100%;
+    text-align:center;
+    overflow:hidden;
+}
+
+.MainLogoIMG {
+    text-align:center;
+    vertical-align: middle;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin:0 auto;
+    animation: fadein 2s;
+        -moz-animation: fadein 2s;
+            -webkit-animation: fadein 2s;
+                -o-animation: fadein 2s;
+}
+
+
+.Body nav ul li {
+    opacty: 0;
+    display:inline;
+    vertical-align:top;
+
+}
+
+
+.redirect {
+    width: 100%;
+    text-align:center;
+        animation: fadein 1s forwards;
+        animation-name: hide, redirect;
+        animation-timing-function: ease-out;
+        animation-iteration-count: 1;
+        opacity: 0;
+        animation-delay: 0s, 1200ms;
+            -moz-animation: fadein 1s forwards;
+            -moz-animation-name: hide, redirect;
+            -moz-animation-timing-function: ease-out;
+            -moz-animation-iteration-count: 1;
+            -moz-opacity: 0;
+            -moz-animation-delay: 0s, 1200ms;
+                -webkit-animation: fadein 1s forwards;
+                -webkit-animation-name: hide, redirect;
+                -webkit-animation-timing-function: ease-out;
+                -webkit-animation-iteration-count: 1;
+                -webkit-opacity: 0;
+                -webkit-animation-delay: 0s, 1200ms;
+                    -o-animation: fadein 1s forwards;
+                    -o-animation-name: hide, redirect;
+                    -o-animation-timing-function: ease-out;
+                    -o-animation-iteration-count: 1;
+                    -o-opacity: 0;
+                    -o-animation-delay: 0s, 1200ms;
+
+}
+
+.redirect ul, li {
+    list-style: none;
+    display:block;
+    margin: 0 auto;
+    padding: 0px 15px;
+    
+}
+
+
+.direct ul{
+    list-style:none;
+    display:block;
+    margin:0 auto;
+    text-align:center;
+    padding: 10px;
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom:40px;
+    opacity:0.8;
+}
+
+.direct ul li, a:link, a:visited{
+    font-size:20px;
+    color: white;
+    opacity: 0.4;
+}
+
+.direct ul li, a:hover{
+    opacity: 1.0;
+}
+
+.footercontent{
+    opacity: 0.7;
+    padding-top: 12%;
+    text-align:center;
+
+}
+
+
+
+@keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+    @-moz-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1 }
+        }
+
+        @-webkit-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+                
+            @-o-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }​
+
+
+@keyframes fadeinContact {
+            from { opacity: 0; }
+            to   { opacity: 0.9; }
+        }
+
+    @-moz-keyframes fadeinContact {
+            from { opacity: 0; }
+            to   { opacity: 0.9 }
+        }
+
+       
+        @-webkit-keyframes fadeinContact {
+            from { opacity: 0; }
+            to   { opacity: 0.9; }
+        }
+        
+            @-o-keyframes fadeinContact {
+            from { opacity: 0; }
+            to   { opacity: 0.9; }
+        }​
+
+
+@keyframes hide{ 
+      from { opacity: 0; } to { opacity: 0 }
+  }
+    
+    @-moz-keyframes hide{ 
+      from { opacity: 0%; } to { opacity: 0% }
+  }
+        
+        @-webkit-keyframes hide{ 
+      from { opacity: 0%; } to { opacity: 0% }
+  }
+            
+            @-o-keyframes hide{ 
+      from { opacity: 0%; } to { opacity: 0% }
+  }
+
+
+
+
+@keyframes redirect
+  { 
+        0% { opacity: 0; top: -100px; }
+      100% { opacity: 1; top:  200px; } 
+  } 
+
+    @-moz-keyframes redirect
+  { 
+        0% { opacity: 0; top: -100px; }
+      100% { opacity: 1; top:  200px; } 
+  } 
+        @-webkit-keyframes redirect
+  { 
+        0% { opacity: 0; top: -100px; }
+      100% { opacity: 1; top:  200px; } 
+  } 
+            @-o-keyframes redirect
+  { 
+        0% { opacity: 0; top: -100px; }
+      100% { opacity: 1; top:  200px; } 
+  } 
+
+
+@media only screen and (min-width:150px) and (max-width:500){
