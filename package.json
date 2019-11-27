@@ -1,0 +1,10 @@
+{
+  "name": "dicesuzuki.com",
+  "version": "1.0.0",
+  "description": "Dice Suzuki",
+  "main": "index.js",
+  "repository": "git@github.com:DiceSuzukiMusic/dicesuzuki.com.git",
+  "author": "Dice Suzuki <DiceSuzukiMusic@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
